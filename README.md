@@ -1,5 +1,12 @@
 # Simple German Vocabulary Trainer
 
+Dependency maintenance: [Renovate](renovate.json) is prepared, but needs its
+[GitHub App](https://github.com/apps/renovate) installed for this repository.
+There is currently no tracked dependency manifest, so the inline `pip install`
+command below is not automatically updated. Supported manifests added later are
+discovered automatically. Routine PRs are grouped weekly; vulnerability PRs bypass
+the schedule and release-age delay. All updates require manual review.
+
 A desktop app to help you learn and practice German vocabulary. Add new words, review them in flashcard mode, and manage your vocabulary list easily.
 
 ## Features
@@ -19,4 +26,3 @@ A desktop app to help you learn and practice German vocabulary. Add new words, r
 - `vocab_ui.py` — UI layout and widgets
 - `vocab_storage.py` — File handling for vocabulary
 - `config.py` — Configuration (window size, file names, etc.)
-
